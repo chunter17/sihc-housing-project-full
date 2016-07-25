@@ -33,7 +33,7 @@ public class ApplicationDatabase extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public Cursor getImages(String id, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
+    public Cursor getHouses(String id, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
         SQLiteQueryBuilder sqliteQueryBuilder = new SQLiteQueryBuilder();
         sqliteQueryBuilder.setTables(TABLE_NAME);
 
@@ -54,16 +54,16 @@ public class ApplicationDatabase extends SQLiteOpenHelper {
         return cursor;
     }
 
-    public long addNewImage(ContentValues values) throws SQLException {
+    public long addNewHouse(ContentValues values) throws SQLException {
         long id = getWritableDatabase().insert(TABLE_NAME, "", values);
         if(id <=0 ) {
-            throw new SQLException("Failed to add an image");
+            throw new SQLException("Failed to add a House");
         }
 
         return id;
     }
 
-    public int deleteImages(String id) {
+    public int deleteHouses(String id) {
         if(id == null) {
             return getWritableDatabase().delete(TABLE_NAME, null , null);
         } else {
@@ -71,7 +71,7 @@ public class ApplicationDatabase extends SQLiteOpenHelper {
         }
     }
 
-    public int updateImages(String id, ContentValues values) {
+    public int updateHouses(String id, ContentValues values) {
         if(id == null) {
             return getWritableDatabase().update(TABLE_NAME, values, null, null);
         } else {
