@@ -24,7 +24,7 @@ public class ApplicationProvider extends ContentProvider {
         return uriMatcher;
     }
 
-    private ApplicationDatabase imageDataBase = null;
+    private ApplicationDatabase houseDataBase = null;
 
     @Override
     public String getType(Uri uri) {
@@ -41,7 +41,7 @@ public class ApplicationProvider extends ContentProvider {
     @Override
     public boolean onCreate() {
         Context context = getContext();
-        imageDataBase = new ApplicationDatabase(context);
+        houseDataBase = new ApplicationDatabase(context);
         return true;
     }
 
@@ -52,13 +52,13 @@ public class ApplicationProvider extends ContentProvider {
             //Query is for one single image. Get the ID from the URI.
             id = uri.getPathSegments().get(1);
         }
-        return imageDataBase.getImages(id, projection, selection, selectionArgs, sortOrder);
+        return houseDataBase.getHouses(id, projection, selection, selectionArgs, sortOrder);
     }
 
     @Override
     public Uri insert(Uri uri, ContentValues values) {
         try {
-            long id = imageDataBase.addNewImage(values);
+            long id = houseDataBase.addNewHouse(values);
             Uri returnUri = ContentUris.withAppendedId(CONTENT_URI, id);
             return returnUri;
         } catch(Exception e) {
@@ -74,7 +74,7 @@ public class ApplicationProvider extends ContentProvider {
             id = uri.getPathSegments().get(1);
         }
 
-        return imageDataBase.deleteImages(id);
+        return houseDataBase.deleteHouses(id);
     }
 
     @Override
@@ -85,6 +85,6 @@ public class ApplicationProvider extends ContentProvider {
             id = uri.getPathSegments().get(1);
         }
 
-        return imageDataBase.updateImages(id, values);
+        return houseDataBase.updateHouses(id, values);
     }
 }
