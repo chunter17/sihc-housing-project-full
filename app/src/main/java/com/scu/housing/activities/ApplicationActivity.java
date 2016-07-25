@@ -30,7 +30,7 @@ public class ApplicationActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.application_activity);
 
-        listView = (ListView) findViewById(R.id.lstViewImages);
+        listView = (ListView) findViewById(R.id.lstViewHouses);
 
         adapter = new SimpleCursorAdapter(getBaseContext(),
                 R.layout.list_layout,
