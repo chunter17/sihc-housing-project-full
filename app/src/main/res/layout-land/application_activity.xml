@@ -17,13 +17,13 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Name"
-            android:id="@+id/txtViewImageTitle"
+            android:id="@+id/txtViewName"
             android:layout_gravity="center_horizontal" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edtTxtImageTitle"
+            android:id="@+id/edtTxtName"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -31,13 +31,13 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Employment"
-            android:id="@+id/txtViewImageUrl"
+            android:id="@+id/txtViewJob"
             android:layout_gravity="center_horizontal" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edtImageUrl"
+            android:id="@+id/edtJob"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -45,27 +45,27 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Annual Income"
-            android:id="@+id/txtViewImageDesc"
+            android:id="@+id/txtViewSalary"
             android:layout_gravity="center_horizontal" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edtImageDesc"
+            android:id="@+id/edtSalary"
             android:layout_gravity="center_horizontal" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Send"
-            android:id="@+id/btnAddImage"
+            android:id="@+id/btnAddHouse"
             android:layout_gravity="center_horizontal"
             android:onClick="onClickAddImage" />
 
         <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/lstViewImages" />
+            android:id="@+id/lstViewHouses" />
     </LinearLayout>
 
 </RelativeLayout>
