@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_bd8d4d8030eda9c8fd4d6c73c207ce997b862bf8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e18fb24f58ffd93f5b2666c72460027c06607c7">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cb96395d72c743a3dfcb478a030d88bdb14a1561/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_1040f567faa93a65bbb1a63b7be97301b611e0d1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a5dbf5118f26f69b2e127fc01ad2a6f4053d8f81">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_96b1957faf8dcde84f2145f4bf7f70bb910d8306/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_a4e5fa34a6b96c425959acc7c32f55fc8db5443f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_2ab8c28edae629d28da9c98a63ad098beacd9b38/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_1af43528ad66cb3b93af31247235c62d55d52d99/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_f1c62e9ee7cd8bae242626e5912039e625944d8e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_0e6e88a69f159c531ae3d20a8e130ea1dce555b6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_15c4ee774b3af3fc8a8cbb381d47e53a213764bb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_adcd26399f2342ff64cc3c9fc64cfa04854097e0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="bbd51be332bace144b3d16501ec0af379c3c8750">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.2.1_f3d15a64edbe670bdf7fd5e73f8e394219e9ea23/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Jack/Desktop/Housing/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/Jack/Desktop/Housing/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_35f48ec358b15c310cb5c1a9ba6d825737b51d30/classes.dex" />
+    </item>
+
+</items>
