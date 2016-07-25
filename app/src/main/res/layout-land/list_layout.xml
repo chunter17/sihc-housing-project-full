@@ -4,26 +4,21 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/imgTitle"
+        android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
 
     <TextView
-        android:id="@+id/imgUrl"
+        android:id="@+id/Job"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
 
     <TextView
-        android:id="@+id/imgDesc"
+        android:id="@+id/Salary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-
-    <TextView
-        android:id="@+id/imgSize"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
